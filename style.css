@@ -1,0 +1,162 @@
+/* Pengaturan dasar seluruh halaman */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tampilan halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Wadah utama portofolio */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul dan teks rata tengah */
+.text-center {
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Subjudul */
+h2 {
+    color: #2980b9;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #2c3e50;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* Paragraf */
+p {
+    margin-bottom: 10px;
+}
+
+/* Foto profil */
+img {
+    display: block;
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    border: 3px solid #2980b9;
+}
+
+/* Kutipan */
+blockquote {
+    font-style: italic;
+    margin: 10px 0 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-left: 5px solid #2980b9;
+    border-radius: 5px;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #2980b9;
+    color: white;
+}
+
+/* Daftar */
+ul,
+ol {
+    margin: 10px 0 20px 20px;
+}
+
+/* Tautan */
+a {
+    color: #1565c0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0d47a1;
+    text-decoration: underline;
+}
+
+/* Teks yang ditandai */
+mark {
+    background-color: #fff176;
+}
+
+/* Pemutar musik */
+audio {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+/* Video YouTube responsif */
+.video-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    margin: 20px 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    top: 0;
+    left: 0;
+}
+
+/* Tampilan layar HP */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    th,
+    td {
+        padding: 6px;
+        font-size: 14px;
+    }
+}
+```

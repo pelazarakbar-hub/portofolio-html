@@ -1,133 +1,157 @@
+```html
 <!DOCTYPE html>
 <html lang="id">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Portofolio Elazar</title>
+
+    <!-- Menghubungkan file CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Judul Halaman -->
-    <h1 style="color: darkblue;">Portofolio Elazar</h1>
+    <!-- Wadah utama portofolio -->
+    <div class="container">
 
-    <!-- Foto Profil -->
-    <h2 style="color: darkgreen;">Foto Profil</h2>
+        <!-- Judul dan Foto Profil -->
+        <header class="text-center">
+            <h1>Portofolio Elazar</h1>
 
-    <img
-        src="BRTT.jpeg"
-        alt="Foto Profil"
-        width="200"
-        height="200"
-    >
+            <h2>Foto Profil</h2>
 
-    <!-- Tentang Saya -->
-    <h2 style="color: darkgreen;">Tentang Saya</h2>
+            <img
+                src="BRTT.jpeg"
+                alt="Foto Profil Elazar"
+                width="200"
+                height="200"
+            >
+        </header>
 
-    <p>
-        Halo, saya adalah <strong>mahasiswa</strong> yang sedang
-        mempelajari <em>pengembangan website</em>.
-    </p>
+        <!-- Tentang Saya -->
+        <section>
+            <h2>Tentang Saya</h2>
 
-    <p>
-        Saya tertarik dengan <mark>teknologi</mark>,
-        militer, dan pengembangan aplikasi.
-    </p>
+            <p>
+                Halo, saya adalah <strong>mahasiswa</strong> yang sedang
+                mempelajari <em>pengembangan website</em>.
+            </p>
 
-    <!-- Quote -->
-    <blockquote>
-        "Belajar teknologi adalah proses yang terus berkembang."
-    </blockquote>
+            <p>
+                Saya tertarik dengan <mark>teknologi</mark>,
+                militer, dan pengembangan aplikasi.
+            </p>
 
-    <!-- Pengalaman -->
-    <h2 style="color: darkgreen;">Pengalaman</h2>
+            <blockquote>
+                "Belajar teknologi adalah proses yang terus berkembang."
+            </blockquote>
+        </section>
 
-    <table border="1">
+        <!-- Pengalaman -->
+        <section>
+            <h2>Pengalaman</h2>
 
-        <tr>
-            <th>Posisi</th>
-            <th>Tempat</th>
-            <th>Tahun</th>
-        </tr>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Posisi</th>
+                        <th>Tempat</th>
+                        <th>Tahun</th>
+                    </tr>
+                </thead>
 
-        <tr>
-            <td>Mahasiswa</td>
-            <td>Universitas Sebelas April</td>
-            <td>2024 - Sekarang</td>
-        </tr>
+                <tbody>
+                    <tr>
+                        <td>Mahasiswa</td>
+                        <td>Universitas Sebelas April</td>
+                        <td>2024 - Sekarang</td>
+                    </tr>
 
-        <tr>
-            <td>Masyarakat</td>
-            <td>Sumedang, Jawa Barat</td>
-            <td>2007 - Sekarang</td>
-        </tr>
+                    <tr>
+                        <td>Masyarakat</td>
+                        <td>Sumedang, Jawa Barat</td>
+                        <td>2007 - Sekarang</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-    </table>
+        <!-- Hobi -->
+        <section>
+            <h2>Hobi Saya</h2>
 
-    <!-- Hobi -->
-    <h2 style="color: darkgreen;">Hobi Saya</h2>
+            <ul>
+                <li>Bermain game</li>
+                <li>Mendengarkan musik</li>
+                <li>Menonton film</li>
+                <li>Belajar hal baru</li>
+            </ul>
 
-    <ul>
-        <li>Bermain game</li>
-        <li>Mendengarkan musik</li>
-        <li>Menonton film</li>
-        <li>Belajar hal baru</li>
-    </ul>
+            <h3>Aktivitas yang Saya Sukai</h3>
 
-    <!-- Aktivitas -->
-    <h3>Aktivitas yang Saya Sukai</h3>
+            <ol>
+                <li>Belajar pemrograman</li>
+                <li>Mengerjakan project</li>
+                <li>Mengembangkan kemampuan</li>
+            </ol>
+        </section>
 
-    <ol>
-        <li>Belajar pemrograman</li>
-        <li>Mengerjakan project</li>
-        <li>Mengembangkan kemampuan</li>
-    </ol>
+        <!-- Media Sosial -->
+        <section>
+            <h2>Media Sosial</h2>
 
-    <!-- Media Sosial -->
-    <h2 style="color: darkgreen;">Media Sosial</h2>
+            <p>
+                <a
+                    href="https://github.com/pelazarakbar-hub"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    GitHub
+                </a>
+            </p>
 
-    <p>
-        <a
-            href="https://github.com/pelazarakbar-hub"
-            target="_blank">
-            GitHub
-        </a>
-    </p>
+            <p>
+                <a
+                    href="https://www.instagram.com/elazar_ap/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Instagram
+                </a>
+            </p>
+        </section>
 
-    <p>
-        <a
-            href="https://www.instagram.com/elazar_ap?stkn=ejV5NG4zbTh2ZDE="
-            target="_blank">
-            Instagram
-        </a>
-    </p>
+        <!-- Musik Favorit -->
+        <section>
+            <h2>Musik Favorit</h2>
 
-    <!-- Musik -->
-<h2 style="color: darkgreen;">Musik Favorit</h2>
+            <p>
+                <strong>d4vd - Feel It (Lyrics)</strong>
+            </p>
 
-<p>
-    <strong>d4vd - Feel It (Lyrics)</strong>
-</p>
+            <audio controls>
+                <source src="feel-it.mp3" type="audio/mpeg">
+                Browser Anda tidak mendukung pemutar audio.
+            </audio>
+        </section>
 
-<audio controls>
-    <source src="feel-it.mp3" type="audio/mpeg">
-    Browser Anda tidak mendukung pemutar audio.
-</audio>
+        <!-- Video YouTube -->
+        <section>
+            <h2>Video Karya</h2>
 
-    <!-- Video YouTube -->
-    <h2 style="color: darkgreen;">Video Karya</h2>
+            <div class="video-container">
+                <iframe
+                    src="https://www.youtube.com/embed/SGjW6JiJB3E"
+                    title="d4vd - Feel It (Lyrics)"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
 
-    <iframe
-        width="640"
-        height="360"
-        src="https://www.youtube.com/embed/SGjW6JiJB3E"
-        title="d4vd - Feel It (Lyrics)"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-    </iframe>
+    </div>
 
 </body>
-
 </html>
+```
